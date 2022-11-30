@@ -1,0 +1,38 @@
+::-webkit-scrollbar {
+  width: 0;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body , html {
+  background: #ADACAC;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+body {
+font-family: "Aleo", sans-serif;
+background-color: #f6f6f6; 
+  
+}
+.container {
+max-width: 1320px;
+padding: 0 15px;
+margin: 0 auto;
+}
+
+/*header*/
+.header {  
+  position: relative;
+  min-height: 912px;
+  background: #1E1E1E;
+  
+  /*padding-top: 44px ;*/
+}
+
+.header_back {
+  width:100%;
+  position: relative;
+}
