@@ -449,3 +449,114 @@ margin-bottom: 10px;
 .best_column1_row_text {
 margin-left: 12px;
 }
+/*main_favorites_content*/
+.main_favorites_content {
+display: flex;
+justify-content:space-between;
+padding-bottom: 120px;
+}
+.main_favorites_column1 {
+width: 25%;
+background: #EDEAE3;
+text-align:center;
+padding: 25px;
+}
+.favorites_column1_row{
+display: flex;
+align-items: center;
+margin-bottom: 24px;
+background-color: #FFFF;
+padding:4px;
+}
+.favorites_column1_row_text {
+margin: 0 20px
+}
+.favorites_column1_row_text h3 {
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 28px;
+color: #4F4F4F;
+}
+.fr_background {
+background: #BC9A6C;
+color: #fff;
+}
+.favorites_column1_row_img {
+margin: 5px;
+}
+
+.main_favorites_column2 {
+width: 75%;
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+padding-left:5px;
+padding-right:5px;
+}
+.favorites_column2_row {
+width:33,3%;
+margin-bottom:2%;
+}
+.favorites_column2_row_text h3 {
+display: inline-block;
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 28px;
+text-align: justify;
+color: #333333;
+margin: 0 25% 8px 16px;
+}
+.favorites_column2_row_text p {
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px; 
+text-align: justify;
+color: #828282;
+margin: 0 0 0 16px;
+}
+.favorites_column2_row_img {
+position: relative;
+}
+.favorites_social {
+position:absolute;
+display: flex;
+flex-direction: column;
+right: 5%;
+top: 5%;
+}
+.favorites_social img {
+margin-bottom: 20%;
+}
+.favorites_social img:last-child {
+padding-bottom: 0;}
+
+/*main_meet_content*/
+.main_meet_content {
+display: flex;
+}
+.meet_block1, .meet_block2,.meet_block3, .meet_block4 {
+width: 25%;
+text-align: center;
+}
+.main_meet_content h3 {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 26px;
+color: #333333;
+margin: 10px 0;
+}
+.main_meet_content p {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #333333;
+}
